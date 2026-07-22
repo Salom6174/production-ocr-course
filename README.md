@@ -324,7 +324,7 @@ For the real-time API, we use an aggressive, low-latency scaling strategy that e
     <td align="center"><img src="https://github.com/MichaelisTrofficus.png" width="100" style="border-radius:50%;"/></td>
     <td>
       <strong>Miguel Otero Pedrido | Senior ML / AI Engineer </strong><br />
-      <i>Founder of The Neural Maze. Rick and Morty fan.</i><br /><br />
+      <i>Founder of The Neural Maze. Just a guy who builds AI Systems that actually work.</i><br /><br />
       <a href="https://www.linkedin.com/in/migueloteropedrido/">LinkedIn</a><br />
       <a href="https://www.youtube.com/@TheNeuralMaze">YouTube</a><br />
       <a href="https://theneuralmaze.substack.com/">The Neural Maze Newsletter</a>
