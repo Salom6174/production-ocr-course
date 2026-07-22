@@ -333,8 +333,8 @@ For the real-time API, we use an aggressive, low-latency scaling strategy that e
   <tr>
     <td align="center"><img src="https://github.com/hedrergudene.png" width="100" style="border-radius:50%;"/></td>
     <td>
-      <strong>Antonio Zarauz Moreno | Mathematician</strong><br />
-      <i>Building math tools to solve open problems in Deep Learning.</i><br /><br />
+      <strong>Antonio Zarauz Moreno | Cognitive-AI R&D / AI Engineer</strong><br />
+      <i>Doesn't build AI wrappers — builds the infrastructure that makes them profitable, from PoC to thousands of concurrent users.</i><br /><br />
       <a href="https://www.linkedin.com/in/antonio-zarauz-moreno/">LinkedIn</a>
     </td>
   </tr>
