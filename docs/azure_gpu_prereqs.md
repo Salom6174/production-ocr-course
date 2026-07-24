@@ -5,6 +5,9 @@ The architecture uses **asymmetric hardware**: cheap **T4** nodes for
 orchestration and layout extraction, premium **A100** nodes for the heavy VLM
 generation. Read this fully before spending money.
 
+> 📸 For a click-by-click walkthrough with screenshots of every portal step
+> below, see the companion Substack article, _Week 0 — Cloud Setup_.
+
 ---
 
 ## 1. Target SKUs
@@ -91,12 +94,9 @@ Before any GPU quota is even visible, your subscription must have the
 
 1. In the portal, search for **Subscriptions** and open your subscription.
 2. In the left menu, scroll down to **Settings → Resource providers**.
-   > _[PLACEHOLDER: screenshot 01 — Resource providers in the left menu]_
-   > _[PLACEHOLDER: screenshot 02 — arrow pointing at "Resource providers"]_
 3. In the **Filter by name** box type `Microsoft.Compute`, select the
    **Microsoft.Compute** row, and click **Register** (top bar). Wait until its
    status flips from *NotRegistered* to *Registered* (1–2 min).
-   > _[PLACEHOLDER: screenshot 03 — filtered to Microsoft.Compute, arrow on the row]_
 
    CLI equivalent:
    ```bash
@@ -112,10 +112,8 @@ any remaining credit.
    **"$200 in credits remaining"** with an **Upgrade to pay-as-you-go** button.
    Click it. (A real credit/debit card is required; prepaid/virtual cards are
    usually rejected.)
-   > _[PLACEHOLDER: screenshot 06 — "Upgrade to pay-as-you-go" button, arrow]_
 2. Follow the prompts. When it's done you'll see a **"You've upgraded"**
    confirmation screen with cost-management recommendations.
-   > _[PLACEHOLDER: screenshot 07 — "You've upgraded. Stay on track..." screen]_
 
 > If the portal keeps behaving like a trial afterward, sign out / switch
 > directory to force a refresh. No Upgrade button at all? Open a Billing support
@@ -124,12 +122,8 @@ any remaining credit.
 ### 4.3 Open your subscription's Usage + quotas
 
 1. Search **Subscriptions** in the top bar and open it.
-   > _[PLACEHOLDER: screenshot 05 — searching "Subscriptions", arrow on the result]_
 2. Click your subscription (here it's renamed **Azure SLM OCR Course**).
-   > _[PLACEHOLDER: screenshot 08 — subscription list]_
-   > _[PLACEHOLDER: screenshot 09 — arrow pointing at the subscription name]_
 3. In the left menu open **Settings → Usage + quotas**.
-   > _[PLACEHOLDER: screenshot 04 — Usage + quotas in the left menu, arrow]_
 
 ### 4.4 Request the T4 quota
 
@@ -137,10 +131,8 @@ any remaining credit.
    chosen region). In the search box type `NCASv3_T4`.
 2. You'll see **Standard NCASv3_T4 Family vCPUs** with a limit of `0 of 0`.
    Tick its checkbox.
-   > _[PLACEHOLDER: screenshot 10 — filter set to NCASv3_T4 + France Central, row highlighted]_
 3. Click the pencil / **New Quota Request**, enter **New limit = 64**, and
    submit.
-   > _[PLACEHOLDER: screenshot 11 — "New limit" field set to 64, arrow]_
 
 ### 4.5 Request the A100 quota
 

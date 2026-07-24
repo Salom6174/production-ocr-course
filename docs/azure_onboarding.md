@@ -8,13 +8,15 @@ cluster.
 > This guide covers account creation only. It's all done in the browser — there
 > are no commands until the CLI install at the end.
 
+> 📸 For screenshots of every portal step below, see the companion Substack
+> article, _Week 0 — Cloud Setup_.
+
 ---
 
 ## 1. Create your Azure account (free trial)
 
 1. Go to **https://azure.microsoft.com/free**.
 2. Click **Start free**.
-   > _[PLACEHOLDER: screenshot of the "Start free" button ➜]_
 3. Sign in with a Microsoft account, or create a new one. If this is a fresh
    account, use an email you control long-term (this becomes your billing
    identity).
@@ -22,7 +24,6 @@ cluster.
 5. Add a **credit or debit card** for verification.
    > **This does not charge you.** Azure uses it only to confirm you're a real
    > person. Prepaid/virtual cards are usually rejected — use a normal card.
-   > _[PLACEHOLDER: screenshot of the card verification step ➜]_
 6. Accept the agreement and finish. You now have the free account with **$200
    in credit** and a set of always-free services.
 
@@ -56,7 +57,6 @@ in when you later look for your subscription.
 
 1. Go to **https://portal.azure.com**.
 2. Search for **Subscriptions** in the top bar.
-   > _[PLACEHOLDER: screenshot of the Subscriptions search ➜]_
 3. You should see one subscription (often named **"Azure subscription 1"**).
    Click it to confirm it's **Active**.
 
