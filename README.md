@@ -105,10 +105,18 @@ We run this as a 6-week hands-on engineering cohort. The entire repository is op
 
 ## Getting Started
 
-For step-by-step provisioning and configuration commands, refer to the cloud-specific deployment guides:
-* 📘 [Azure Kubernetes Service (AKS) Deployment Guide](docs/aks_deployment.md)
-* 📗 [Google Kubernetes Engine (GKE) Deployment Guide](docs/gke_deployment.md)
-* ☁️ [Cloud Provider Comparison & Discrepancies Matrix](docs/cloud_comparison.md)
+Start with account setup, then GPU quota, then the full deployment guide for your cloud of choice:
+
+1. **Create your cloud account & claim free credits**
+   * 🔵 [Azure Account Setup](docs/azure_onboarding.md) — the course's primary cloud
+   * 🟢 [GCP Account Setup](docs/gcp_onboarding.md) — optional, if you'd rather run on Google Cloud
+2. **Request GPU quota** (T4 + A100 — this is the step most people get stuck on; free/trial accounts cannot run GPUs)
+   * 🔵 [Azure GPU Access & Quota Prerequisites](docs/azure_gpu_prereqs.md)
+   * 🟢 [GCP GPU Access & Quota Prerequisites](docs/gcp_gpu_prereqs.md)
+3. **Deploy the pipeline**
+   * 📘 [Azure Kubernetes Service (AKS) Deployment Guide](docs/aks_deployment.md)
+   * 📗 [Google Kubernetes Engine (GKE) Deployment Guide](docs/gke_deployment.md)
+   * ☁️ [Cloud Provider Comparison & Discrepancies Matrix](docs/cloud_comparison.md)
 
 ---
 

@@ -1,5 +1,13 @@
 ## 🛠️ Deployment Lifecycle
 
+> **Before you start:** this guide assumes you already have an Azure account
+> with Pay-As-You-Go billing and approved GPU quota. If you haven't done that
+> yet, go through [`azure_onboarding.md`](azure_onboarding.md) and
+> [`azure_gpu_prereqs.md`](azure_gpu_prereqs.md) first. Note that the
+> capacity-proof cluster built in Section 7 of `azure_gpu_prereqs.md` is
+> disposable and unrelated to the cluster built below — delete it if you
+> haven't already, this guide creates its own from scratch.
+
 ### 0. Prerequisites & Environment Variables
 
 ```bash

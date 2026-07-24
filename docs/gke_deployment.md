@@ -1,5 +1,13 @@
 ## 🛠️ Deployment Lifecycle (Google Kubernetes Engine - GKE)
 
+> **Before you start:** this guide assumes you already have a GCP account with
+> a fully activated (non-trial) billing account and approved GPU quota. If you
+> haven't done that yet, go through [`gcp_onboarding.md`](gcp_onboarding.md)
+> and [`gcp_gpu_prereqs.md`](gcp_gpu_prereqs.md) first. Note that the
+> capacity-proof cluster built in Section 7 of `gcp_gpu_prereqs.md` is
+> disposable and unrelated to the cluster built below — delete it if you
+> haven't already, this guide creates its own from scratch.
+
 ### 0. Prerequisites & Environment Variables
 
 ```bash
