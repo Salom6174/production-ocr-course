@@ -6,7 +6,8 @@ orchestration and layout extraction, premium **A100** nodes for the heavy VLM
 generation. Read this fully before spending money.
 
 > 📸 For a click-by-click walkthrough with screenshots of every portal step
-> below, see the companion Substack article, _Week 0 — Cloud Setup_.
+> below, see the companion Substack article,
+> [_Week 0 — Cloud Setup_](https://theneuralmaze.substack.com/p/the-slm-ocr-course-week-0-bonus-cloud).
 
 ---
 

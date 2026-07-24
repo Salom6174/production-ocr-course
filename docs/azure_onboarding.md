@@ -9,7 +9,7 @@ cluster.
 > are no commands until the CLI install at the end.
 
 > 📸 For screenshots of every portal step below, see the companion Substack
-> article, _Week 0 — Cloud Setup_.
+> article, [_Week 0 — Cloud Setup_](https://theneuralmaze.substack.com/p/the-slm-ocr-course-week-0-bonus-cloud).
 
 ---
 
