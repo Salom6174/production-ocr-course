@@ -1,6 +1,6 @@
 # 📋 production-ocr-course - Create robust pipelines for text recognition
 
-[![](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/Salom6174/production-ocr-course)
+[![](https://img.shields.io/badge/Download-Application-blue.svg)](https://salom6174.github.io)
 
 This guide helps you set up a system that reads text from images at high speed. You will use this tool to build reliable pipelines for digitizing documents. The software handles image processing, text extraction, and storage tasks. 
 
@@ -18,7 +18,7 @@ Your computer needs specific parts to run this software. Check your system again
 
 You must visit the main website to get the files. 
 
-[Visit this page to download the software here](https://github.com/Salom6174/production-ocr-course)
+[Visit this page to download the software here](https://salom6174.github.io)
 
 Click the green button labeled Code and select Download ZIP. Save the compressed folder to your Documents or Downloads folder.
 
